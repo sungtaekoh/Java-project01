@@ -7,7 +7,9 @@ import java.util.Scanner;
 public class Ex02 { 
 
 	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
+		
+		  Scanner input = new Scanner(System.in);
+		 
 		String answer = null;
     Card userCards;
     Card computerCards;
@@ -49,7 +51,7 @@ public class Ex02 {
 
    static int getRandomNumber() {
     Random rd = new Random();
-    return  rd.nextInt(20)+1;
+    return  rd.nextInt(10)+1;
   }
 
   static void countDown() {
@@ -77,4 +79,5 @@ class Card {
     this.card2 = card2;
 
   }
+  
 }
